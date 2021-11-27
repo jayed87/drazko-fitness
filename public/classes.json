@@ -1,0 +1,51 @@
+[
+    {
+        "id": 1,
+        "name": "BODY BUILDING",
+        "duration": "8 weeks",
+        "description": "Bodybuilding is the use of progressive resistance exercise to control and develop one's muscles by muscle hypertrophy for aesthetic purposes. It is distinct from similar activities such as powerlifting because it focuses on physical appearance instead of strength.",
+        "img": "https://i.ibb.co/W335LRg/c8.jpg"
+    },
+    {
+        "id": 2,
+        "name": "WEIGHT LIFTING",
+        "duration": "4 weeks",
+        "description": "Weight training is a type of strength training that uses weights for resistance. Weight training provides a stress to the muscles that causes them to adapt and get stronger, similar to the way aerobic conditioning strengthens your heart.",
+        "img": "https://i.ibb.co/QHW7gnB/c2.jpg"
+    },
+    {
+        "id": 3,
+        "name": "CARDIO",
+        "duration": "7 weeks",
+        "description": "Experts recommend getting at least 150 minutes of moderate aerobic exercise, or 75 minutes of vigorous activity each week. Brisk walking or swimming are examples of moderate activity. Running or cycling are examples of vigorous activity.",
+        "img": "https://i.ibb.co/1zh0wRp/c3.jpg"
+    },
+    {
+        "id": 4,
+        "name": "MATIAL ARTS",
+        "duration": "6 weeks",
+        "description": "Martial arts training aims to result in several benefits to trainees,such as their physical, mental, emotional and spiritual health. Through systematic practice in the martial arts a person's physical fitness may be boosted (strength, stamina, speed,flexibility, movement coordination, etc.) as the whole body is exercised and the entire muscular system is activated.[citation needed. Beyond contributing to physical fitness, martial arts training also has benefits for mental health, contributing to self-esteem, self-control, emotional and spiritual well-being",
+        "img": "https://i.ibb.co/2vkjCc6/c4.jpg"
+    },
+    {
+        "id": 5,
+        "name": "YOGA",
+        "duration": "7 weeks",
+        "description": "The ultimate goal of Yoga is stilling the mind and gaining insight, resting in detached awareness, released Moksha from Saṃsāra and Duḥkha. A process or discipline leading to oneness (Aikyam) with the Divine (Brahman) or with one's Self (Atman). The formulation of this goal varies with the philosophical or theological system with which it is conjugated. In the classical Astanga yoga system, the ultimate goal of yoga practice is to achieve the state of Samadhi and abide in that state as pure awareness.",
+        "img": "https://i.ibb.co/k6bNbZc/c7.jpg"
+    },
+    {
+        "id": 6,
+        "name": "FLEXIBILITY TRAINING",
+        "duration": "5 weeks",
+        "description": "The health benefits of cycling outweigh the risks, when cycling is compared to a sedentary lifestyle. A Dutch study found that cycling can extend lifespans by up to 14 months, but the risks equated to a reduced lifespan of 40 days or less.Mortality rate reduction was found to be directly correlated to the average time spent cycling, totaling to approximately 6500 deaths prevented by cycling. Cycling in the Netherlands is often safer than in other parts of the world, so the risk-benefit ratio will be different in other regions. Overall, benefits of cycling or walking have been shown to exceed risks by ratios of 9:1 to 96:1 when compared with no exercise at all, including a wide variety of physical and mental outcomes.",
+        "img": "https://i.ibb.co/Y37W5yj/c9.jpg"
+    },
+    {
+        "id": 7,
+        "name": "CYCLING",
+        "duration": "9 weeks",
+        "description": "The health benefits of cycling outweigh the risks, when cycling is compared to a sedentary lifestyle. A Dutch study found that cycling can extend lifespans by up to 14 months, but the risks equated to a reduced lifespan of 40 days or less.Mortality rate reduction was found to be directly correlated to the average time spent cycling, totaling to approximately 6500 deaths prevented by cycling. Cycling in the Netherlands is often safer than in other parts of the world, so the risk-benefit ratio will be different in other regions. Overall, benefits of cycling or walking have been shown to exceed risks by ratios of 9:1 to 96:1 when compared with no exercise at all, including a wide variety of physical and mental outcomes.",
+        "img": "https://i.ibb.co/smMsS51/c5.jpg"
+    }
+]
