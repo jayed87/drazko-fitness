@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Class = ({ clas }) => {
     const { id, name, duration, description, img } = clas;
@@ -11,7 +12,9 @@ const Class = ({ clas }) => {
                 </div>
 
             </div>
-            <p><button className="btn btn-outline-info btn-block">Details</button></p>
+            <Link to="/classDetails">
+                <button className="btn btn-outline-info btn-block">Details</button>
+            </Link>
         </div>
     );
 };
