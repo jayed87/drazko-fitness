@@ -11,11 +11,7 @@ const useFirebase = () => {
     const signInUsingGoogle = () => {
         setIsLoading(true);
         const googleProvider = new GoogleAuthProvider();
-        signInWithPopup(auth, googleProvider)
-            .then(result => {
-                setUsers(result.user)
-            })
-            .finally(() => setIsLoading(false))
+        return signInWithPopup(auth, googleProvider);
     }
     // observe use state change
     useEffect(() => {
@@ -42,7 +38,9 @@ const useFirebase = () => {
         users,
         signInUsingGoogle,
         logOut,
-        isLoading
+        isLoading,
+        setUsers,
+        setIsLoading
     }
 
 }

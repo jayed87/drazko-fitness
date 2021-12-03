@@ -9,13 +9,10 @@ const ClassDetails = () => {
             .then(res => res.json())
             .then(data => {
                 const p = data.find(p => p.id == id)
-                console.log('this is details', p)
                 setDetails(p)
             })
 
     }, [id])
-    // classDetails.map(details => console.log(details))
-    // console.log(classDetails)
     return (
         <div className="container">
             <div className="row">
