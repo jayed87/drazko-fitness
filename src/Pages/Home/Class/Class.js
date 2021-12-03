@@ -2,7 +2,8 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 const Class = ({ clas }) => {
-    const { id, name, duration, description, img } = clas;
+    const { id, name, img } = clas;
+    // console.log(clas.id);
     return (
         <div className="col-lg-4 col-md-4 col-sm-12">
             <div className="card text-white">
@@ -12,7 +13,7 @@ const Class = ({ clas }) => {
                 </div>
 
             </div>
-            <Link to="/classDetails">
+            <Link to={`/classDetails/${id}`}>
                 <button className="btn btn-outline-info btn-block">Details</button>
             </Link>
         </div>
