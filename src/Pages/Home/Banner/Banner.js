@@ -15,8 +15,8 @@ const Banner = () => {
                         alt="First slide"
                     />
                     <Carousel.Caption>
-                        <h3>First slide label</h3>
-                        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                        <h3>INCREASE YOUR MUSCLE POWER</h3>
+                        <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
@@ -27,8 +27,8 @@ const Banner = () => {
                     />
 
                     <Carousel.Caption>
-                        <h3>Second slide label</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        <h3>SHAPE YOUR PERFECT BODY</h3>
+                        <p>Sound body and mind can make you keep going in long futur. Get a chance to explore full potetial of your body.</p>
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
@@ -39,8 +39,8 @@ const Banner = () => {
                     />
 
                     <Carousel.Caption>
-                        <h3>Third slide label</h3>
-                        <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                        <h3>YOU ONLY FAIL, WHEN YOU STOP TRYING</h3>
+                        <p>Only you can shape your body. No success can achieve without coming out of your comfort zone!</p>
                     </Carousel.Caption>
                 </Carousel.Item>
             </Carousel>

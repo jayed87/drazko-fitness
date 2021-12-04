@@ -81,10 +81,10 @@ const Login = () => {
     }
 
     return (
-        <div className="container">
-            <h3 className="text-center">{isLogin ? 'Login' : 'Registration'}</h3>
-            <div className="row justify-content-center">
-                <div className="col-lg-10 col-md-10 col-sm-12 offset-md-3">
+        <div className="container mt-5">
+            <div className="row justify-content-center ">
+                <div className="col-lg-6 col-md-6 col-sm-12 container shadow p-5 mb-5 bg-white rounded">
+                    <h4 style={{ color: "#e1193e" }}>{isLogin ? 'LOGIN' : 'REGISTRATION'}</h4>
                     <form onSubmit={handleRegistration}>
                         <div className="form-row">
                             <div className="form-group col-md-6">
@@ -93,7 +93,7 @@ const Login = () => {
                             </div>
                             <div className="form-group col-md-6">
                                 <label htmlFor="inputPassword4">Password</label>
-                                <input onBlur={handlePasswordChange} type="password" className="form-control" id="inputPassword4" placeholder="Password" />
+                                <input onBlur={handlePasswordChange} type="password" className="form-control" id="inputPassword4" placeholder="Password" required />
                             </div>
                             <small className="text-danger">{error}</small>
                             <div className="form-group form-check">

@@ -1,0 +1,9 @@
+.trainer-header{
+
+}
+.trainer-header small{
+font-weight: bold;
+}
+.trainer-header small,span{
+    color: #e1193e;
+} 

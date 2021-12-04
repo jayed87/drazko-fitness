@@ -14,8 +14,9 @@ const ClassDetails = () => {
 
     }, [id])
     return (
-        <div className="container">
+        <div className="container py-5">
             <div className="row">
+                <h3 className="mb-4 text-center" style={{ color: "#e1193e" }}>CLASS INFORMATION</h3>
                 <div className="col-lg-6 col-md-6 col-sm-12 shadow p-3 mb-5 bg-white rounded">
                     <img src={details.img} className="img-thumbnail" alt="pictue" />
                 </div>

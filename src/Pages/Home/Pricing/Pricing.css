@@ -1,0 +1,9 @@
+.pricing-content{
+    text-align: center;
+}
+.pricing-content h6{
+    font-weight: bold;
+}
+.pricing-content span{
+    font-size: 60px;
+}
