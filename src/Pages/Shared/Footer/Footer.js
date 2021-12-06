@@ -18,7 +18,10 @@ const Footer = () => {
                     </div>
                     <p className="my-3">The last three or four reps is what makes the muscle grow. This area of pain divides a champion from someone who is not a champion.</p>
                     <div className="footer-social">
-                        <p><span>{twitterIcon}</span> <span>{facebookIcon}</span> <span>{gitHubIcon}</span></p>
+                        <p><span><a href="https://twitter.com" target="_blank">{twitterIcon}</a></span>
+                            <span><a href="https://facebook.com" target="_blank">{facebookIcon}</a></span>
+                            <span><a href="https://github.com" target="_blank">{gitHubIcon}</a></span>
+                        </p>
                     </div>
                 </div>
             </div>

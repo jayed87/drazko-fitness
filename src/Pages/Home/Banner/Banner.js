@@ -6,7 +6,7 @@ import b2 from '../../../Images/Banner/b2.jpg';
 import b3 from '../../../Images/Banner/b3.jpg';
 const Banner = () => {
     return (
-        <div>
+        <div id="banner">
             <Carousel className="img-height">
                 <Carousel.Item>
                     <img

@@ -13,7 +13,7 @@ const Header = () => {
                     <Navbar.Brand href="#home" className="text-white">DAZKO <span style={{ color: "#e1193e" }}>FITNESS</span></Navbar.Brand>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse id="responsive-navbar-nav" className="justify-content-end">
-                        <Nav.Link className="text-white" as={HashLink} to="/home#home">Home</Nav.Link>
+                        <Nav.Link className="text-white" as={HashLink} to="/home#banner">Home</Nav.Link>
                         <Nav.Link className="text-white" as={HashLink} to="/home#about">About</Nav.Link>
                         <Nav.Link className="text-white" as={HashLink} to="/home#trainers">Trainers</Nav.Link>
                         <Nav.Link className="text-white" as={HashLink} to="/home#classes">Classes</Nav.Link>

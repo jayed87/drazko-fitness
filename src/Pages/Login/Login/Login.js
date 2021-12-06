@@ -71,6 +71,8 @@ const Login = () => {
         createUserWithEmailAndPassword(auth, email, password)
             .then(result => {
                 const user = result.user;
+                history.push(redirect_uri)
+                setUsers(user)
                 // setUsers(user)
                 // console.log(user);
                 setError('');
